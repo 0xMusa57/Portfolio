@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Musa TASOLUK, développeur web et logiciel spécialisé en HTML, CSS, JavaScript et C++">
+    <title>Portfolio | Musa TASOLUK</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <a href="#accueil" class="skip-link">Aller au contenu principal</a>
+    <header>
+        <nav aria-label="Navigation principale">
+            <div class="nav-logo">
+                <a href="index.html" aria-label="Accueil">
+                    <img src="assets/testlogo.png" alt="Logo MT" class="logo-img" width="110" height="90">
+                    <span class="logo-text">Portfolio</span>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" aria-label="Accueil" aria-current="page">Accueil</a></li>
+                <li><a href="about.html" aria-label="À propos">À propos</a></li>
+                <li><a href="skills.html" aria-label="Compétences">Compétences</a></li>
+                <li><a href="projects.html" aria-label="Projets">Projets</a></li>
+                <li><a href="contact.html" aria-label="Contact">Contact</a></li>
+            </ul>
+            <button class="hamburger" aria-expanded="false" aria-controls="mobile-menu" aria-label="Menu mobile">
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+                <div class="hamburger-line"></div>
+            </button>
+        </nav>
+    </header>
+
+    <main id="accueil">
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-text animate">
+                    <h1>Bonjour, je suis <span>Musa TASOLUK</span></h1>
+                    <p>Développeur passionné spécialisé en HTML, CSS, JavaScript et C++. Actuellement en première année de développement web à MNS.</p>
+                    <div class="hero-btns">
+                        <a href="projects.html" class="btn btn-primary">Voir mes projets</a>
+                        <a href="contact.html" class="btn btn-secondary">Me contacter</a>
+                    </div>
+                </div>
+                <div class="hero-img animate">
+                    <img src="assets/Photo Musa CV.jpg" alt="Portrait de Musa TASOLUK">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>Navigation</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="about.html">À propos</a></li>
+                    <li><a href="skills.html">Compétences</a></li>
+                    <li><a href="projects.html">Projets</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <p>Email: musatasoluk0@gmail.com</p>
+                <p>Téléphone: +33 7 66 71 05 24</p>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Musa TASOLUK. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
